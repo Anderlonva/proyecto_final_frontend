@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.1.0/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/pagina_index.css">
+    <link rel="shortcut icon" href="imagenes/logo.png" type="image/x-icon">
+    <title>OYE</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light fondo-navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand text-secondary" href="index.html">
+                    <img class=" img-logo " src="imagenes/logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                    OYE
+                  </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link text-secondary" aria-current="page" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-secondary active pagina-activa " href="canciones.html">Canciones</a>
+                  </li>
+                  
+                </ul>
+                <ul class="mb-1 navbar-nav  mx-1 margin-tablet ">
+                  <li class="nav-item mx-2">
+                    <button type="button" class="btn btn-secondary btn-sm linea " data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      Contacto
+                    </button>
+                  </li>
+                  <li class="nav-item mx-1 my-auto">
+                    <button type="button" class="btn btn-secondary btn-sm linea "><a class="text-white text-decoration-none" href="ingresar.html">Inicio de Sesión</a></button>
+                  </li>
+                  <li class="nav-item mx-1">
+                    <button type="button" class="btn btn-secondary btn-sm linea "><a class="text-white text-decoration-none  " href="registro.html">Registro</a></button>
+                  </li>
+                    
+                    
+                </ul>
+               
+              </div>
+            </div>
+          </nav>
+
+
+          <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Contacto</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+             <p>info@oye.com</p>
+             <p>+1 123 123123123</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Cerrar</button>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    </header>
+
+    <main>
+      
+
+      <div class="container">
+        <div class="row justify-content-center">
+         <div class="col-9 mb-2 mt-2">
+          <h2>Canciones</h2>
+          <input class="form-control me-2  card-filter  "  type="search" placeholder="Buscar..." aria-label="Search">
+         </div>
+        </div>
+
+        <!-- 1 fila canciones -->
+
+      
+        <div class="row justify-content-center cards-a ">
+          
+            <div class="col-12 col-md-6 col-lg-4 col-xl-4 mx-auto text-center mb-2">
+              <div class="card " style="width: 18rem;">
+                <div class="bg-light">
+                  <img class="mx-auto" src="imagenes/icon_4.svg" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title"><strong>vive</strong></h5>
+                  <p class="card-text"><audio src="canciones/uno.mp3" controls></audio></p>
+                  
+                </div>
+              </div>
+            </div>  
+            <div class="col-12 col-md-6 col-lg-4 col-xl-4 mx-auto text-center mb-2"  >
+              <div class="card " style="width: 18rem;">
+                <div class="bg-light text-center">
+                  <img class="mx-auto" src="imagenes/icon_1.svg" class="card-img-top" alt="...">
+                </div>
+                  <div class="card-body">
+                  <h5 class="card-title"><strong>invierno</strong></h5>
+                  <p class="card-text"><audio src="canciones/dos.mp3" controls></p>
+                 
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 col-xl-4 mx-auto text-center mb-2">
+              <div class="card " style="width: 18rem;">
+                <div class="bg-light text-center">
+                  <img class="mx-auto" src="imagenes/icon_3.svg" class="card-img-top" alt="...">
+                </div>
+                  <div class="card-body">
+                  <h5 class="card-title"><strong>planeta</strong></h5>
+                  <p class="card-text"><audio src="canciones/tres.mp3" controls></p>
+                 
+                </div>
+              </div>
+            </div>
+          
+        </div>
+
+        <!-- 2 fila canciones -->
+        <div class="row justify-content-center cards-a ">
+          
+          <div class="col-12 col-md-6 col-lg-4 col-xl-4 mx-auto text-center mb-2">
+            <div class="card " style="width: 18rem;">
+              <div class="bg-light">
+                <img class="mx-auto" src="imagenes/icon_2.svg" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"><strong>suave</strong></h5>
+                <p class="card-text"><audio src="canciones/cuatro.mp3" controls></p>
+                
+              </div>
+            </div>
+          </div>  
+          <div class="col-12 col-md-6 col-lg-4 col-xl-4 mx-auto text-center mb-2">
+            <div class="card " style="width: 18rem;">
+              <div class="bg-light text-center">
+                <img class="mx-auto" src="imagenes/icon_4.svg" class="card-img-top" alt="...">
+              </div>
+                <div class="card-body">
+                <h5 class="card-title"><strong>contigo</strong></h5>
+                <p class="card-text"><audio src="canciones/cinco.mp3" controls></p>
+               
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 col-xl-4 mx-auto text-center mb-2">
+            <div class="card " style="width: 18rem;">
+              <div class="bg-light text-center">
+                <img class="mx-auto" src="imagenes/icon_1.svg" class="card-img-top" alt="...">
+              </div>
+                <div class="card-body">
+                <h5 class="card-title"><strong>alas</strong></h5>
+                <p class="card-text"><audio src="canciones/seis.mp3" controls></p>
+               
+              </div>
+            </div>
+          </div>
+        
+       </div>
+
+       <!-- 3 fila canciones -->
+       <div class="row align-content-center cards-a ">
+          
+        <div class="col-12 col-md-6 col-lg-4 col-xl-4 mx-auto text-center mb-2">
+          <div class="card " style="width: 18rem;">
+            <div class="bg-light">
+              <img class="mx-auto" src="imagenes/icon_3.svg" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title"><strong>verde</strong></h5>
+              <p class="card-text"><audio src="canciones/siete.mp3" controls></p>
+              
+            </div>
+          </div>
+        </div>  
+        <div class="col-12 col-md-6  col-lg-4 col-xl-4 mx-auto text-center mb-2">
+          <div class="card " style="width: 18rem;">
+            <div class="bg-light text-center">
+              <img class="mx-auto" src="imagenes/icon_1.svg" class="card-img-top" alt="...">
+            </div>
+              <div class="card-body">
+              <h5 class="card-title"><strong>nuevamente</strong></h5>
+              <p class="card-text"><audio src="canciones/ocho.mp3" controls></p>
+             
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 col-xl-4 mx-auto text-center mb-2">
+          <div class="card " style="width: 18rem;">
+            <div class="bg-light text-center">
+              <img class="mx-auto" src="imagenes/icon_2.svg" class="card-img-top" alt="...">
+            </div>
+              <div class="card-body">
+              <h5 class="card-title"><strong>hoy</strong></h5>
+              <p class="card-text"><audio src="canciones/nueve.mp3" controls></p>
+             
+            </div>
+          </div>
+        </div>
+     
+    </div>
+
+    
+    
+  </div>
+
+
+
+
+
+
+
+
+      </div>
+
+    </main>
+
+    <footer>
+      <div class="container-fluid">
+        <div class="row border border-top fondo-navbar text-center ">
+          <a class="mb-0 mt-3 disabled text-decoration-none text-secondary">Comparte la música 2021 OYE: Todos los derechos Reservados</a>
+          <ul class="nav justify-content-center mt-0 ">
+            <li class="nav-item">
+              <a class="nav-link text-secondary" aria-current="page" href="#">Terminos y Condiciones de Uso</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="#">Politica de Tratamiento de Datos Personales</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="#">Aviso de Privacidad</a>
+            </li>
+            
+          </ul>
+        </div>
+       </div>
+    </footer>
+
+
+    
+    <script src="js/busqueda.js"></script>
+    <script src="bootstrap-5.1.0/dist/js/bootstrap.js"></script>
+</body>
+</html>
